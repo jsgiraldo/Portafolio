@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import { FaBicycle, FaRegLightbulb, FaTools } from "react-icons/fa";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
@@ -8,33 +9,33 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hola a todos, soy <span className="purple">Jordan Giraldo </span>
+            de <span className="purple"> Popayán, Colombia 🇨🇴</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            Actualmente, trabajo como Software Developer en Inndico.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Me encuentro en culminación de la carrera en Ingeniería en Automatica Industrial
+            en Universidad del Cauca
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Además de codificar, hay otras actividades que me encanta hacer:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <FaRegLightbulb /> Participar en eventos, foros de técnología
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <FaTools /> Desarrollos Eléctronicos IoT y Domóticos
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <FaBicycle /> CicloMontañismo - Downhill
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            {" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer"> </footer>
         </blockquote>
       </Card.Body>
     </Card>

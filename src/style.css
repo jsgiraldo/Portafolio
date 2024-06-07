@@ -1,17 +1,19 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(10, 116, 218, 0.582), /* Azul */
+    rgba(0, 212, 255, 0.904)  /* Cian */
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(10, 116, 218, 0.678), /* Azul */
+    rgba(0, 212, 255, 0.863)  /* Cian */
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #00BFFF; /* Morado */
+  --button-background-color: #00ffa2; /* Verde */
+  --text-color: #2d2d2d; /* Gris */
 }
 
 .purple {
@@ -57,18 +59,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #2d1950; /* Use a dark color for the track */
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(0, 212, 255, 0.863); /* Cian */
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(10, 116, 218, 0.678); /* Azul */
   border-radius: 12px;
 }
 
@@ -76,7 +78,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #009F95 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -97,7 +99,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #00BFFF !important; /* Cian */
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -114,7 +116,6 @@ button:focus {
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out !important;
   transition: transform 0.35s ease-in-out !important;
 }
 
@@ -150,6 +151,7 @@ button:focus {
     display: none !important;
   }
 }
+
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
 }
@@ -194,7 +196,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: var(--imp-text-color); /* Cian */
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -242,6 +244,7 @@ button:focus {
     transform: rotate(0deg);
   }
 }
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
@@ -257,7 +260,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/home-bg1.png);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -281,17 +284,18 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #0A2C6B;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #0A2C6B !important;
   font-weight: 600 !important;
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: var(--imp-text-color) !important; /* Cian */
 }
 
 @media (max-width: 767px) {
@@ -379,7 +383,7 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #00BFFF;
 }
 
 .home-social-icons:hover {
@@ -402,7 +406,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(10, 116, 218);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -727,7 +731,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #90FF00!important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -740,4 +744,27 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* Blog */
+
+.en-construccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.en-construccion h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.en-construccion p {
+  font-size: 1.5em;
 }

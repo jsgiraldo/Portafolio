@@ -618,6 +618,9 @@ button:focus {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+  overflow-y: hidden;
+  max-height: 80vh;
+  width: 100%;
 }
 
 .resume-left {

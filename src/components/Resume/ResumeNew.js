@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Form, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/CV_Jordan_GIraldo_Portafolio.pdf";
@@ -33,7 +33,7 @@ function ResumeNew() {
       setShowDownload(true);
       setErrorMessage("");
     } else {
-      setErrorMessage("Contraseña incorrecta. Solicítala al número 3244346434.");
+      setErrorMessage("Contraseña incorrecta. Solicítala al número +57 3244346434.");
     }
   }
 
@@ -43,25 +43,26 @@ function ResumeNew() {
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           {!showDownload ? (
-            <div>
-              <input
+            <Col md={6} lg={4}>
+              <Form.Control
                 type="password"
                 placeholder="Ingresa la contraseña"
                 value={password}
                 onChange={handlePasswordChange}
+                style={{marginBottom: '10px'}}
               />
               <Button onClick={handleDownloadClick} style={{ maxWidth: "250px" }}>
                 <AiOutlineDownload />
                 &nbsp;Descargar HV
               </Button>
               {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
-            </div>
+            </Col>
           ) : (
           <Button
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px", marginBottom: '10px' }}
           >
             <AiOutlineDownload />
             &nbsp;Descargar HV
@@ -69,9 +70,9 @@ function ResumeNew() {
           )}
         </Row>
 
-        <Row className="resume" style={{ overflowY: "auto", maxHeight: "80vh" }}>
+        <Row className="resume" style={{ overflowY: "auto", maxHeight: "80vh", width: "100%" }}>
           <Document file={pdf} className="d-flex flex-column align-items-center" onLoadSuccess={onDocumentLoadSuccess}>
-            {Array.from(new Array(Math.min(numPages, 2)), (el, index) => (
+            {Array.from(new Array(Math.min(numPages)), (el, index) => (
               <Page
                 key={`page_${index + 1}`}
                 pageNumber={index + 1}

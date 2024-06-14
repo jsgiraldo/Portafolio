@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portafolio Personal - v1.0<br/>
+  Portafolio Personal - v-1.0<br/>
   <a href="" 
   target="_blank">Creditos: soumyajit.tech</a>
 </h2>
@@ -32,7 +32,7 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 ## Built With
 
-Un portafolio personal a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+Un portafolio personal a href="https://jsgiraldo.vercel.app/" target="_blank">jsgiraldo</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 

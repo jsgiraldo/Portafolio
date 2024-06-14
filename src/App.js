@@ -43,7 +43,7 @@ function App() {
           <Route path="/en-construccion" element={<EnConstruccion />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer style={{ position: "absolute", bottom: 0, width: "100%" }} />
+        <Footer />
       </div>
     </Router>
   );

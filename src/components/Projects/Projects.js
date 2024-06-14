@@ -42,9 +42,10 @@ function Projects() {
             <ProjectCard
               imgPath={energy}
               isBlog={false}
-              title="Comportamiento energético de los prosumidores"
-              description="Reducir significativamente los costes de desequilibrio para mejorar la fiabilidad de la red y hacer eficiente y sostenible la integración de los prosumidores en el sistema energético."
-              ghLink=""
+              title="Proyecto Final Azure Machine Learning - Comportamiento energético de los prosumidores"
+              description="El proyecto final consiste en el diseño, desarrollo e implementación de una solución de aprendizaje automático utilizando Azure Machine Learning
+              Reducir significativamente los costes de desequilibrio para mejorar la fiabilidad de la red y hacer eficiente y sostenible la integración de los prosumidores en el sistema energético."
+              ghLink="https://github.com/jsgiraldo/azure-ml-projects"
               demoLink=""
             />
           </Col>
@@ -53,9 +54,10 @@ function Projects() {
             <ProjectCard
               imgPath={Hackaton}
               isBlog={false}
-              title="Hackaton Talento Tech"
-              description="Se realizo el Reto de EduTech solucionando Análisis Predictivo del Comportamiento Estudiantil en Plataformas de E-learning utilizando Inteligencia Artificial"
-              ghLink=""
+              title="Hackaton Talento Tech - CriptoTalento Social Dapp"
+              description="Se realizo Criptotalento Social DApp es una plataforma innovadora 
+              diseñada para empoderar la economía de mercados populares en Nariño, proporciona un sistema de pagos peer-to-peer (P2P) usando nuestra criptomoneda nativa, "Skill" las transacciones se realizan de manera eficiente y segura en la blockchain.   Además ayuda a mejorar el acceso a fuentes de recursos financieros y microcréditos, sin necesidad de acudir a intermediarios tradicionales; junto con una serie de herramientas que implementan modelos de ia predictiva para la demanda y oferta en mercados poulares, como el market place, la vitrina comercial y el sistema de publicación de eventos por recompensas, Criptotalento se convierte en la red social de web3 como la perfecta aliada del comercio regional incrementando la competitividad de los negocios locales."
+              ghLink="https://github.com/jsgiraldo/criptotalento"
               demoLink=""              
             />
           </Col>

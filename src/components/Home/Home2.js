@@ -24,31 +24,31 @@ function Home2() {
               <br />
               <br />Soy fluido en lenguajes como
               <i>
-                <b className="purple"> Python, Javascript y C++. </b>
+                <b className="purple"> Python y Javascript. </b>
               </i>
               <br />
               <br />
-              Mis campos de interés son el mundo de &nbsp;
+              Mis campos de interés son el mundo de los&nbsp;
               <i>
-                <b className="purple">Datos, la Inteligencia Artificial y la sostenibilidad </b> y
+                <b className="purple">Datos, la Inteligencia Artificial y el software </b> y
                 las areás relacionadas a la{" "}
                 <b className="purple">
-                  Ciencia de Datos, NLP, Machine Learning, Deep Learning, IoT.
+                  Ciencia de Datos, NLP, Machine Learning, Deep Learning, Internet de las cosas (IoT).
                 </b>
               </i>
               <br />
               <br />
               Siempre que tengo la oportunidad, aplico mi pasión en el desarrollo
-              de productos en el Campo de los Datos y la Inteligencia Artificial utilizando <b className="purple">Django</b> y
+              de productos en el Campo de los Datos y la Inteligencia Artificial utilizando <b className="purple">Python</b> y
               <i>
                 <b className="purple">
                   {" "}
-                  Modernas librerías de Python y frameworks
+                  Bibliotecas - FrameWorks
                 </b>
               </i>
               &nbsp; como
               <i>
-                <b className="purple"> Tensorflow, PyTorch, Pandas y Scikit-learn</b>
+                <b className="purple"> Numpy, Pandas, Matplotlib,Seaborn,Tensorflow, PyTorch, y Scikit-learn</b>
               </i> 
             </p>
           </Col>

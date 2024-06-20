@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about1.png";
 import Toolstack from "./Toolstack";
+import Credentialstack from "./Credentialstack"
 
 function About() {
   useEffect(() => {
@@ -48,6 +49,11 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
+       
+        <h1 className="project-heading">
+          <strong className="purple">Digital</strong> Credentials
+        </h1>
+        <Credentialstack />
 
         <Github />
       </Container>

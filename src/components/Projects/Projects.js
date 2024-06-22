@@ -33,7 +33,7 @@ function Projects() {
               isBlog={false}
               title="Predicción de precio de viviendas"
               description="Utilizando técnicas avanzadas de regresión, logré predecir con éxito los precios finales de venta de casas en el conjunto de datos proporcionado por el concurso de Kaggle House Prices - Advanced Regression Techniques. El proceso incluyó la preprocesamiento de datos, ingeniería de características y selección de modelos. Apliqué métodos como regresión lineal múltiple, regularización, y modelos de ensamble para mejorar la precisión de las predicciones"
-              ghLink=""
+              ghLink="https://github.com/jsgiraldo/ML-Predicci-n-Precios-de-Casas"
               demoLink=""
             />
           </Col>
@@ -45,7 +45,7 @@ function Projects() {
               title="Proyecto Final Azure Machine Learning - Comportamiento energético de los prosumidores"
               description="El proyecto final consiste en el diseño, desarrollo e implementación de una solución de aprendizaje automático utilizando Azure Machine Learning
               Reducir significativamente los costes de desequilibrio para mejorar la fiabilidad de la red y hacer eficiente y sostenible la integración de los prosumidores en el sistema energético."
-              ghLink="https://github.com/jsgiraldo/azure-ml-projects"
+              ghLink="https://github.com/jsgiraldo/azure-ml-projects/tree/main/projects/team_energy_time"
               demoLink=""
             />
           </Col>

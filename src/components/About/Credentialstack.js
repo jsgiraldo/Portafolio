@@ -5,6 +5,7 @@ import proyectosImage from "../../Assets/proyectos.png";
 import inteligenciaImage from "../../Assets/inteligencia.webp";
 import webpythonImage from "../../Assets/webpython.png";
 import emergingTechImage from "../../Assets/Explore_Emerging_Tech.png";
+import datascienceorientationImage from "../../Assets/datascienceorientation.png";
 
 function Credentialstack() {
   return (
@@ -32,6 +33,11 @@ function Credentialstack() {
       <Col xs={4} md={2} className="tech-icons">
         <a href="https://www.credly.com/badges/b51fd520-efb9-4c89-8c69-99d30356ba2b/public_url" target="_blank" rel="noopener noreferrer">
           <img src={emergingTechImage} alt="Tecnología emergentes" style={{ width: "100%" }} />
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a href="https://www.credly.com/badges/1e622c86-e886-465a-855f-0c954b8e73ca/public_url" target="_blank" rel="noopener noreferrer">
+          <img src={datascienceorientationImage} alt="Data Science Orientation" style={{ width: "100%" }} />
         </a>
       </Col>
     </Row>

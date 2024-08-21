@@ -68,9 +68,9 @@ function Projects() {
             <ProjectCard
               imgPath={web}
               isBlog={false}
-              title="Web Page"
-              description="Pagina Web empresarial para visibilidad de los servicios de la empresa de refrigeracion utilizando HTML, CSS, Javascript y Framework Bootstrap "
-              ghLink=""
+              title="Desarrollo de Plataforma E-commerce “Emazon” con Microservicios, Angular y Spring Boot"
+              description="En este proyecto, se desarrolla la plataforma e-commerce 'Emazon', una tienda virtual diseñada para facilitar la compra y administración de artículos. Implementando un sistema de microservicios, cada uno con su base de datos independiente, utilizando Spring Boot para el backend y Angular para el frontend. El proyecto sigue principios de arquitectura hexagonal, con prácticas de desarrollo como diseño atómico, mobile-first, y validación con SonarLint. La plataforma incluye funcionalidades clave como gestión de stock, carrito de compras, y generación de informes para la toma de decisiones del administrador, todo asegurado con tests unitarios y documentación OpenAPI."
+              ghLink="https://github.com/jsgiraldo/e-commerce"
               demoLink=""
             />
           </Col>
@@ -79,8 +79,8 @@ function Projects() {
             <ProjectCard
               imgPath={api}
               isBlog={false}
-              title="ERP Odoo Integration with Mobile App"
-              description=""
+              title="Web page"
+              description="Pagina Web empresarial para visibilidad de los servicios de la empresa de refrigeracion utilizando HTML, CSS, Javascript y Framework Bootstrap "
               ghLink=""
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
